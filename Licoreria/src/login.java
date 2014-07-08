@@ -171,7 +171,7 @@ public class login extends javax.swing.JFrame {
        
         boolean t;
         dbconector connect = new dbconector();
-        t = connect.getdata(jTextField3.getText(),jTextField4.getText());
+        t = connect.getdata(jTextField3.getText1(),jTextField4.getText2());
         
         if(t == true){
         JOptionPane.showMessageDialog(this,"Bienvenido "+jTextField3.getText());
